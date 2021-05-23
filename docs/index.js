@@ -24,7 +24,8 @@ function main ()
 }
 window.onload = main;
 
-function output(counter,inUnit,inLine){
+function output(counter,inUnit,inLine)
+{
   counter++;
   inUnit.innerHTML = counter;
   inLine.innerHTML = counter;
